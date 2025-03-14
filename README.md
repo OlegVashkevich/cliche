@@ -1,2 +1,2 @@
-# cliche
+# Cliche
 Template for Github repository
