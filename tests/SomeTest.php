@@ -7,7 +7,10 @@ use PHPUnit\Framework\TestCase;
 
 class SomeTest extends TestCase
 {
-    public function testConstructor(): void
+    /**
+     * @return void
+     */
+    public function testSomeClass(): void
     {
         $this->assertEquals('test', (new SomeClass())('test'));
     }
